@@ -1,0 +1,3 @@
+mex -c ../optimalB_C++/optimal_b.cpp ../optimalV_C++/optimal_v.cpp bfgs.cpp -I'/usr/local/include' -I'../optimalV_C++' -I'../optimalB_C++' -L'/usr/local/lib' -lopencv_core.2.4.13 -lopencv_highgui.2.4.13 -lopencv_imgproc.2.4.13
+
+mex -O mex_bfgs.cpp -I'/usr/local/include' -I'../optimalB_C++' -I'../optimalV_C++' -L'/usr/local/lib' -lopencv_core.2.4.13 -lopencv_highgui.2.4.13 -lopencv_imgproc.2.4.13  optimal_v.o optimal_b.o bfgs.o
