@@ -28,14 +28,14 @@ We also pre-generate the segmentation result for this test image and save it in 
 
 If you find our work useful in your research, please cite:
 
-@article{ENCut,
-  title={Explored Normalized Cut With Random Walk Refining Term for Image Segmentation},
-  author={Zhu, Lei and Kang, Xuejing and Ye, Lizhu and Ming, Anlong},
-  journal={IEEE Transactions on Image Processing},
-  volume={31},
-  pages={2893--2906},
-  year={2022},
-  publisher={IEEE}
-}
+@article\{ENCut,</br>
+  title=\{Explored Normalized Cut With Random Walk Refining Term for Image Segmentation\},</br>
+  author=\{Zhu, Lei and Kang, Xuejing and Ye, Lizhu and Ming, Anlong\},</br>
+  journal=\{IEEE Transactions on Image Processing\},</br>
+  volume=\{31\},</br>
+  pages=\{2893--2906\},</br>
+  year=\{2022\},</br>
+  publisher=\{IEEE\}</br>
+\}</br>
 
 [arxiv]: https://ieeexplore.ieee.org/abstract/document/9745758/
