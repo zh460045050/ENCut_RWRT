@@ -3,9 +3,9 @@ clc;
 addpath(genpath('encut_encode'));
 addpath(genpath('experiment'));
 addpath(genpath('external'));
-fileName = '253036.jpg';
-fileDir = 'img/';
-img = imread('/Users/zhulei/study/资料整理/Upgrade/CVPR2021/final_material/codes/LNSN-upload/demo_imgs/107793.jpg'); %image
+%fileName = '253036.jpg';
+%fileDir = 'img/';
+img = imread('img/107793.jpg'); %image
 k = 25; %number of partitions
 thr = 0.3; %Threhod of the UCM
 
